@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://www.calculator.land/wp-content/uploads/2022/12/temperature-converter-schema.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.temperature-form {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.temperature-form .form-group label {
+  font-weight: bold;
+}
+
+.temperature-form .form-group input {
+  background: rgba(0, 0, 0, 1);
+  border: 1px solid #ccc;
+  color: #fff;
+}
+
+.temperature-form .form-group input:focus {
+  background: rgba(0, 0, 0, 1);
+}

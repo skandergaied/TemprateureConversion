@@ -1,0 +1,10 @@
+<form [formGroup]="temperatureConverter" class="container mt-5 p-4 border rounded shadow temperature-form">
+  <div class="form-group">
+    <label for="celsius-input">Celsius:</label>
+    <input type="number" formControlName="celsius" class="form-control" id="celsius-input" (blur)="celToFah(temperatureConverter.value)" data-test-id="celsius-input"/>
+  </div>
+  <div class="form-group mt-3">
+    <label for="fahrenheit-input">Fahrenheit:</label>
+    <input type="number" class="form-control" formControlName="fahren" id="fahrenheit-input" (blur)="fahToCel(temperatureConverter.value)" data-test-id="fahrenheit-input"/>
+  </div>
+</form>
